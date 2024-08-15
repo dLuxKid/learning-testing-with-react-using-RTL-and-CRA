@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Greet() {
-  return <div>Greet</div>;
+export default function Greet({ name }) {
+  return <div>Hello {name}</div>;
 }
